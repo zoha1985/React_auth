@@ -1,0 +1,7 @@
+.convertBg{
+    background-image: url('../../Assets/Images/bg2.jpg');
+    background-size: cover;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    color: white;
+}

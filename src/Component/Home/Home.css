@@ -1,0 +1,13 @@
+.convertBg{
+    background-image: url('../../Assets/Images/bg2.jpg');
+    background-size: cover;
+    min-height: 1000px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.headerTopControl{
+    font-size: 60px;
+    font-weight: bolder;
+    text-shadow: 10px 10px 26px #ffc107;
+}

@@ -1,0 +1,10 @@
+
+ul.ulcontrol a {
+    text-decoration: none !important;
+    color: #fff !important;
+    padding: 5px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 10px 6px 8px #ffc107 !important;
+    
+}

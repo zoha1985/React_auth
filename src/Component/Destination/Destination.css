@@ -1,0 +1,7 @@
+.destination{
+    background-image: url('../../Assets/Images/dest.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width : 100%;
+}
