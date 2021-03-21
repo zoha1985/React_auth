@@ -25,7 +25,9 @@ const Home = () => {
                        {
                            newCar.map(newCar => <Cards newCar={newCar}></Cards>)
                        }
-          
+                
+
+
                     </div>
                 </div>
             </div>

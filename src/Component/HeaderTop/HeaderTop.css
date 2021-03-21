@@ -8,3 +8,35 @@ ul.ulcontrol a {
     text-shadow: 10px 6px 8px #ffc107 !important;
     
 }
+
+
+@media screen and (max-width: 992px) {
+    ul.ulcontrol a {
+        text-decoration: none !important;
+        color: #fff !important;
+        padding: 5px 10px;
+        font-size: 18px;
+        font-weight: bold;
+        text-shadow: 10px 6px 8px #ffc107 !important;
+        
+    }
+    .headerTopControl{
+        text-align: center;
+    }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    ul.ulcontrol a {
+        text-decoration: none !important;
+        color: #fff !important;
+        padding: 5px 10px;
+        font-size: 18px;
+        font-weight: bold;
+        text-shadow: 10px 6px 8px #ffc107 !important;
+        
+    }
+    .headerTopControl{
+        text-align: center;
+    }
+  }

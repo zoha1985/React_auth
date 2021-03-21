@@ -19,14 +19,14 @@ const SingleVaickel = (props) => {
     }, [])
     return (
 
-        <div className="container-fulid  bg-secondary">
+        <div className="container-fulid  bg-secondary d-flex">
             <div className="row">
                 <div className="container">
                     <div className="row">
                         <HeaderTop />
       
           
-                        <div className="col-md-4  p-5 mt-5 bg-dark" style={{ boxShadow: '5px 5px 20px' }}>
+                        <div className="col-md-4 w-100 align-center p-5 mt-5 bg-dark" style={{ boxShadow: '5px 5px 20px' }}>
 
                             <h2 className="text-white">Are you ready for ride</h2>
                             <h6 className="text-white"> Pic From</h6>
@@ -35,7 +35,7 @@ const SingleVaickel = (props) => {
                             <input type="text" name="" placeholder="To" />
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-md-8 w-25">
+                                    <div className="col-md-4  w-25">
                                         {id == 'Car' ? <img className="singleVaick w-100 p-3" src={car} alt="" /> : ''}
                                         {id == 'Bike' ? <img className="singleVaick w-100 p-3" src={bik} alt="" /> : ''}
                                         {id == 'Train' ? <img className="singleVaick w-100 p-3" src={train} alt="" /> : ''}
@@ -45,7 +45,7 @@ const SingleVaickel = (props) => {
                             </div>
                             <input className="bg-warning pl-5 pr-5" type="submit" value="Search"/>
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-8 w-100">
                             <h1 className="text-white">Live Google maps</h1>
                             <Google />
                         </div>

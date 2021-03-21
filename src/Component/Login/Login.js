@@ -4,7 +4,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import GTranslateIcon from '@material-ui/icons/GTranslate';
 import { UserContext } from '../../App';
 import { useHistory, useLocation } from 'react-router-dom';
-
+import './Login.css'
 const Login = () => {
     const [logedinUser, setLogedinUser] = useContext(UserContext);
     console.log("top logedinUser", logedinUser);
@@ -152,8 +152,8 @@ const handleGoogleSignin = () => {
    
 
     return (
-        <div className="container align-center">
-            <div className="row 100-vh">
+        <div className="container align-center control d-flex">
+            <div className="row ">
                 <div className="col-md-12">
                     <form onSubmit={handelSubmit}>
                         <h1>Our Own Othancation</h1>
